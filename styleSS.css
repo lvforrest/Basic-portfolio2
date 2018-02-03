@@ -1,0 +1,49 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body { 
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    padding: 0 10%,
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+/* GLOBAL CLASSES */
+.row {
+display: flex;
+}
+.y-center {
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+}
+.split {
+    justify-content: space-between;
+}
+
+/* CUSTOM STYLES */
+header {
+    background: #444;
+    color: #fff;
+    padding: 8px 5%;
+}
+header nav a:not(:last-child) {
+    background: red;
+    /* margin-right: 5px; */
+}
+.social{
+    margin: 0 auto;
+
+}

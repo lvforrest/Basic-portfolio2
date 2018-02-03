@@ -1,0 +1,26 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body { 
+    height: 100%;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+/* GLOBAL CLASSES */
+.row {
+display: flex;
+}
+/* CUSTOM STYLES */
+header {
+    background: #444;
+    color: #fff;
+    padding: 8px 5%;
+}
